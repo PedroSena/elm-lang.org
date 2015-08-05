@@ -71,6 +71,13 @@ True
 > isNegative (-3 * -4)
 False
 ```
+Another example, now the function takes an number and multiplies it by 2
+```
+> double n = n * 2
+<function> : number -> number
+> double 2
+4 : number
+```
 
 Notice that function application looks different than in languages like JavaScript and Python and Java. Instead of wrapping all arguments in parentheses and separating them with commas, we use spaces to apply the function. So `(add(3,4))` becomes `(add 3 4)` which ends up avoiding a bunch of parens and commas as things get bigger. Ultimately, this looks much cleaner once you get used to it! [The elm-html package][elm-html] is a good example of how this keeps things feeling light.
 
